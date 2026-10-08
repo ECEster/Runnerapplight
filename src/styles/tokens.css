@@ -1,0 +1,99 @@
+/* RunningNederland — design tokens (gegenereerd uit het design system, tokens.json) */
+:root {
+  color-scheme: light;
+  --surface-100: #f4f6f5;
+  --surface-200: #ffffff;
+  --surface-300: #e8ecea;
+  --ink: #1d2733;
+  --ink-muted: #5a6573;
+  --line: #dde2df;
+  --line-strong: #7c8590;
+  --brand: #17614a;
+  --brand-hover: #114d3a;
+  --brand-soft: #e2f1ea;
+  --on-brand: #ffffff;
+  --accent: #b6b88d;
+  --accent-soft: #eeefe2;
+  --accent-ink: #55572f;
+  --danger: #b3412f;
+  --scrim: rgba(30,32,36,0.35);
+  --on-scrim: #ffffff;
+  --focus: #1f6fa8;
+  --inverse: #1d2733;
+  --on-inverse: #eef2f0;
+  --on-inverse-muted: #a9b6b0;
+  --inverse-link: #8fdcb9;
+  --shadow-card: 0 1px 2px rgba(29,39,51,0.06), 0 4px 16px rgba(29,39,51,0.06);
+  --shadow-raised: 0 2px 4px rgba(29,39,51,0.08), 0 12px 28px rgba(29,39,51,0.10);
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+  --font-sans: Figtree, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --container: 1200px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --surface-100: #131a1f;
+    --surface-200: #1b242b;
+    --surface-300: #243039;
+    --ink: #ece9e2;
+    --ink-muted: #a3acb6;
+    --line: #2c3842;
+    --line-strong: #7a8694;
+    --brand: #6fd1a5;
+    --brand-hover: #8fdcb9;
+    --brand-soft: #173a2e;
+    --on-brand: #0e2a20;
+    --accent: #b6b88d;
+    --accent-soft: #2c2e1d;
+    --accent-ink: #d4d6ad;
+    --danger: #f0907f;
+    --scrim: rgba(20,22,26,0.4);
+    --on-scrim: #ffffff;
+    --focus: #7cb8e6;
+    --inverse: #0e1318;
+    --on-inverse: #eef2f0;
+    --on-inverse-muted: #a9b6b0;
+    --inverse-link: #8fdcb9;
+    --shadow-card: 0 1px 2px rgba(0,0,0,0.4);
+    --shadow-raised: 0 4px 16px rgba(0,0,0,0.5);
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --surface-100: #131a1f;
+  --surface-200: #1b242b;
+  --surface-300: #243039;
+  --ink: #ece9e2;
+  --ink-muted: #a3acb6;
+  --line: #2c3842;
+  --line-strong: #7a8694;
+  --brand: #6fd1a5;
+  --brand-hover: #8fdcb9;
+  --brand-soft: #173a2e;
+  --on-brand: #0e2a20;
+  --accent: #b6b88d;
+  --accent-soft: #2c2e1d;
+  --accent-ink: #d4d6ad;
+  --danger: #f0907f;
+  --scrim: rgba(20,22,26,0.4);
+  --on-scrim: #ffffff;
+  --focus: #7cb8e6;
+  --inverse: #0e1318;
+  --on-inverse: #eef2f0;
+  --on-inverse-muted: #a9b6b0;
+  --inverse-link: #8fdcb9;
+  --shadow-card: 0 1px 2px rgba(0,0,0,0.4);
+  --shadow-raised: 0 4px 16px rgba(0,0,0,0.5);
+}
