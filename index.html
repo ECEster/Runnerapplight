@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RunningNederland — Hardlopen in Nederland</title>
+    <meta name="description" content="Het complete overzicht van hardloopevenementen in Nederland. Van parkloop tot marathon." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;650;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- Voor Netlify Forms: een verborgen kopie van het contactformulier, zodat Netlify het herkent bij het bouwen. -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="naam" /><input type="email" name="email" /><input type="text" name="onderwerp" /><textarea name="bericht"></textarea><input name="bot-field" />
+    </form>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
